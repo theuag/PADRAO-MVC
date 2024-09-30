@@ -5,5 +5,5 @@ app_controller = Blueprint("nome", __name__)
 
 @app_controller.route("/")
 def index():
-    return render_template('index.html')
+    return render_template('index.html', qualquer = h)
 
