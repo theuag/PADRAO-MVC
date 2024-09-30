@@ -1,4 +1,4 @@
-class Nome:
+class Humano:
     def __init__(self, nome):
         self.nome = nome
-    
+h = Humano("matheus")
